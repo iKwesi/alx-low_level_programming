@@ -16,7 +16,7 @@ int main(void)
 		{
 			printf("%ld", j);
 		}
-		ele if (i == 1)
+		else if (i == 1)
 		{
 			printf(", %ld", k);
 		}
