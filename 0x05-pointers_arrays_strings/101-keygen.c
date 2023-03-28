@@ -3,11 +3,11 @@
 #include <time.h>
 #include <math.h>
 
-/***
-* main - print password.
-*
-* Return: 0.
-*/
+/**
+ * main - Prints a password.
+ *
+ * Return: Always 0.
+ */
 
 int main(void)
 {
@@ -29,7 +29,7 @@ int main(void)
 	{
 		i--;
 	}
-
+	
 	for (j = 0; j <= i; j++)
 	{
 		printf("%c", password[j]);
