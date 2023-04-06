@@ -11,7 +11,7 @@
 int my_sqrt(int i, int j)
 {
 	if (i * i == j)
-		return (a);
+		return (i);
 	if (i  > j/2)
 		return (-1);
 	return (my_sqrt(i + 1, j));
