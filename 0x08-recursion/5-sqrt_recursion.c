@@ -12,7 +12,7 @@ int my_sqrt(int i, int j)
 {
 	if (i * i == j)
 		return (i);
-	if (i  > j/2)
+	if (i  > j / 2)
 		return (-1);
 	return (my_sqrt(i + 1, j));
 }
@@ -24,7 +24,7 @@ int my_sqrt(int i, int j)
  */
 int _sqrt_recursion(int n)
 {
-	if (n == 0 || n ==1)
+	if (n == 0 || n == 1)
 		return (n);
 	return (my_sqrt(0, n));
 }
