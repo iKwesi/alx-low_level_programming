@@ -18,7 +18,7 @@ char *argstostr(int ac, char **av)
 			return (NULL);
 
 		while (ac--)
-			sum += (len_str(av[ac]) + 1);
+			sum += (len(av[ac]) + 1);
 		new_string = (char *) malloc(sum + 1);
 
 		if (new_string != NULL)
@@ -41,13 +41,13 @@ char *argstostr(int ac, char **av)
 }
 
 /**
-*len_str - returns length of str
+*len - returns length of str
 *
 *@str: string counted
 *
 *Return: returns the length
 */
-int len_str(char *str)
+int len(char *str)
 {
 		int len = 0;
 
