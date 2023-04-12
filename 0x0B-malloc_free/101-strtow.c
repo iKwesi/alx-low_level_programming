@@ -3,8 +3,8 @@
 /**
 *strtow - splits a stirng into words
 *@str: string to be splitted
-*
-*Return: pointer to the array of splitted words, NULL is str == NULL or str == ""
+*Return: pointer to the array of splitted words,
+* NULL is str == NULL or str == ""
 */
 
 char **strtow(char *str)
